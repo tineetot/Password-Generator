@@ -3,10 +3,6 @@
 A functional web application that generates secure, random passwords. This project was developed as part of the **Scrimba Fullstack Path**, focusing on JavaScript arrays, loops, and DOM interaction.
 
 
-
-### 🔗 Live Demo
-**[Generate your secure password here!](INSERT_YOUR_VERCEL_URL_HERE)** *(Deployed via Vercel)*
-
 ---
 
 ## 📖 Project Overview
