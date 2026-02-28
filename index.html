@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="title">Generate a <span>random password </span></h1>
+        <p>Never use an insecure password again.</p>
+        <br>
+        <div id="passwordLength">
+        <label for="length">Select Password Length: </label>
+        <select id="length">
+            <option value="6"> 6 </option>
+            <option value="7"> 7 </option>
+            <option value="8"> 8 </option>
+            <option value="9"> 9 </option>
+            <option value="10" selected> 10 </option>
+            <option value="11"> 11 </option>
+        </select>
+        </div>
+        <br>
+        <div id="togglePassword">
+        <label>
+        <input type="checkbox" id="includeNumbers" checked>
+        Include Numbers
+        </label>
+        <label>
+        <input type="checkbox" id="includeSymbols" checked>
+        Include Symbols
+        </label>
+        </div>
+        <br>
+        <button id="generate" onclick="create()">Generate Passwords</button>
+        <hr>
+        <button id="first-Password" onclick="copyFirst()"></button>
+        <button id="second-Password" onclick="copySecond()"></button>
+        <button id="third-Password" onclick="copyThird()"></button>
+        <button id="fourth-Password" onclick="copyFourth()"></button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
