@@ -1,19 +1,52 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🔐 SecurePass: Random Password Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A functional web application that generates secure, random passwords. This project was developed as part of the **Scrimba Fullstack Path**, focusing on JavaScript arrays, loops, and DOM interaction.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
+### 🔗 Live Demo
+**[Generate your secure password here!](INSERT_YOUR_VERCEL_URL_HERE)** *(Deployed via Vercel)*
+
+---
+
+## 📖 Project Overview
+The goal of this project was to create a tool that helps users move away from insecure, repetitive passwords. It allows for high customization, ensuring that the generated strings meet various security requirements (length, inclusion of symbols, or numbers).
+
+Building this helped me master:
+* **State Management:** Using checkboxes to dynamically filter the pool of available characters.
+* **Math Logic:** Utilizing `Math.random()` and `Math.floor()` to pick truly random indices from an array.
+* **Clipboard API:** Implementing `navigator.clipboard.writeText` to let users copy passwords with a single click.
+
+---
+
+## ✨ Key Features
+* **Customizable Length:** Choose between 6 to 11 characters depending on your needs.
+* **Character Toggles:** Inclusion of Numbers and Symbols can be toggled on or off.
+* **Multiple Options:** Generates four unique passwords at once so you can pick your favorite.
+* **Click-to-Copy:** Simply click on any generated password to copy it instantly to your clipboard.
+* **Modern Tooling:** Built with **Vite** for a fast, optimized development workflow.
+
+
+
+---
+
+## 🛠️ Tech Stack
+* **HTML5:** Semantic structure for the input controls and display buttons.
+* **CSS3:** Custom aesthetic using a soft purple/pink palette (`#f4acb7`) and clean typography.
+* **JavaScript (Vanilla):** Logic for character randomization and clipboard functionality.
+* **Vite:** Next-generation frontend tooling.
+
+---
+
+## 📂 File Structure
+- `index.html` - The UI structure including the length selector and toggles.
+- `index.css` - Custom styles, layout centering, and button hover effects.
+- `index.js` - The "brain" of the app, containing the character arrays and generation logic.
+- `vite.config.js` - Configuration for the Vite build tool.
+
+---
+
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/tineetot/Password-Generator.git](https://github.com/tineetot/Password-Generator.git)
