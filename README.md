@@ -45,4 +45,4 @@ Building this helped me master:
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/tineetot/Password-Generator.git](https://github.com/tineetot/Password-Generator.git)
+   git clone https://github.com/tineetot/Password-Generator.git
