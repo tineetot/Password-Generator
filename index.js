@@ -18,6 +18,8 @@ let firstPass = document.getElementById("first-Password")
 let secondPass = document.getElementById("second-Password")
 let thirdPass = document.getElementById("third-Password")
 let fourthPass = document.getElementById("fourth-Password")
+let fifthPass = document.getElementById("fifth-Password")
+let sixthPass = document.getElementById("sixth-Password")
 
 // function that will generate a password based on the user's preference
 function create() {
@@ -51,6 +53,8 @@ generatePass.addEventListener("click", function() {
     secondPass.textContent = create()
     thirdPass.textContent = create()
     fourthPass.textContent = create()
+    fifthPass.textContent = create()
+    sixthPass.textContent = create()
 
 })
 
@@ -76,4 +80,16 @@ function copyFourth() {
     let fourthToCopy = fourthPass.textContent
     navigator.clipboard.writeText(fourthToCopy)
     alert("You have copied: " + fourthToCopy)
+}
+
+function copyFifth() {
+    let fifthToCopy = fifthPass.textContent
+    navigator.clipboard.writeText(fifthToCopy)
+    alert("You have copied: " + fifthToCopy)
+}
+
+function copySixth() {
+    let sixthToCopy = sixthPass.textContent
+    navigator.clipboard.writeText(sixthToCopy)
+    alert("You have copied: " + sixthToCopy)
 }

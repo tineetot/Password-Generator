@@ -1,8 +1,20 @@
 body {
+    background-color:#3e3d44;
+}
+
+#container {
     background-color:#565264;
     color:white;
     margin: 20px;
-    font-family:"Verdana"
+    font-family:"Verdana";
+    min-height:500px;
+    height:auto;
+    width:500px;
+    padding:20px;
+    margin: 20px auto;
+    border:5px solid #706677;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #706677;
 }
 
 span {
@@ -20,7 +32,7 @@ p {
 
 #passwordLength {
     display:inline-block;
-    background-color:#4A4756;
+    background-color:#5f5b6e;
     padding: 5px 10px;
     font-weight:bold;
     border-radius: 10px;
@@ -30,7 +42,7 @@ p {
 
 #togglePassword {
     display:inline-block;
-    background-color:#4A4756;
+    background-color:#5f5b6e;
     padding: 5px 10px;
     font-weight:bold;
     border-radius: 10px;
@@ -46,6 +58,11 @@ p {
     border-radius:10px;
     font-weight:bold;
     margin-bottom: 10px;
+    font-size:15px;
+}
+
+#generate:hover {
+    background-color:#dc9aa4
 }
 
 hr {
@@ -54,11 +71,43 @@ hr {
 }
 
 button {
-    color:#f4acb7;
-    background-color:#4A4756;
+    color:white;
+    background-color:#767189;
     border: none;
-    padding: 8px 25px;
+    padding: 10px 30px;
     border-radius:10px;
     font-weight:bold;
     margin-top: 5px; 
+}
+
+#footer {
+    margin-top: 30px; 
+    font-size: 14px;
+}
+
+.github-link {
+    display: flex;
+    margin-top: 5px;
+    gap:8px;
+}
+
+#footer img {
+    width: 20px;
+    height: 20px;
+}
+
+#footer p {
+    color: #f4acb7;
+    margin-bottom: 5px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #f4acb7;
+}
+
+#footer a:hover {
+    color: #f4acb7;
 }

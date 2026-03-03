@@ -4,10 +4,12 @@
     </head>
     <body>
         <!--Used span so that it stays on the same line as the other words-->
+        <div id="container">
         <h1 id="title">Generate a <span>random password </span></h1>
         <p>Never use an insecure password again.</p>
         <br>
 
+        
         <!-- Creating the password length feature -->
         <div id="passwordLength">
         <label for="length">Select Password Length: </label>
@@ -48,7 +50,17 @@
         <button id="second-Password" onclick="copySecond()"></button>
         <button id="third-Password" onclick="copyThird()"></button>
         <button id="fourth-Password" onclick="copyFourth()"></button>
+        <button id="fifth-Password" onclick="copyFifth()"></button>
+        <button id="sixth-Password" onclick="copySixth()"></button> 
         
+        <div id="footer">
+            <p>Created by: <strong>tineetot</strong></p>
+            <div class="github-link">
+            <img src="github-icon.png"> <a href="https://github.com/tineetot" target="_blank">View on GitHub</a> </img>
+            </div>
+        </div>
+
         <script src="index.js"></script>
+        </div>
     </body>
 </html>
