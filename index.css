@@ -59,6 +59,7 @@ p {
     font-weight:bold;
     margin-bottom: 10px;
     font-size:15px;
+    font-family:"Verdana";
 }
 
 #generate:hover {
@@ -109,5 +110,5 @@ button {
 }
 
 #footer a:hover {
-    color: #f4acb7;
+    color: #dc9aa4;
 }
